@@ -1,0 +1,35 @@
+/* ==================================================================
+    DARKMODE STYLING
+================================================================== */
+
+.darkmode--activated p,
+.darkmode--activated h1,
+.darkmode--activated h2,
+.darkmode--activated h3,
+.darkmode--activated h4,
+.darkmode--activated h5,
+.darkmode--activated span,
+.darkmode--activated li,
+.darkmode--activated ol {
+    color: #ECEFF4;
+}
+
+.darkmode--activated blockquote {
+    background-color: #2E3440;
+}
+
+.darkmode--activated ul {
+    background-color: #2E3440;
+}
+
+.darkmode--activated a {
+    color: #81A1C1
+}
+
+.darkmode-toggle {
+    z-index: 500;
+}
+
+.darkmode--activated greedy-nav {
+    background-color: #2E3440;
+}

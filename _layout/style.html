@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="/css/franklin.css">
 <link rel="stylesheet" href="/css/minimal-mistakes.css">
 <link rel="stylesheet" href="/css/adjust.css">
+<link rel="stylesheet" href="/css/minimal-mistakes-dark.css">
 <link rel="icon" href="/assets/favicon.png">
 <!--[if IE ]>
 <style>
@@ -16,3 +17,23 @@
   }
 </style>
 <![endif]-->
+<script src="/libs/darkmode/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    const options = {
+      bottom: '16px', /* default: '32px' */
+      right: '16px', /* default: '32px' */
+      left: 'unset', /* default: 'unset' */
+      time: '.0s', /* default: '0.3s' */
+      mixColor: '#fff', /* default: '#fff' */
+      backgroundColor: '#fff', /* default: '#fff' */
+      buttonColorDark: '#100f2c', /* default: '#100f2c' */
+      buttonColorLight: '#fff', /* default: '#fff' */
+      saveInCookies: true, /* default: true, */
+      label: '🌓', /* default: '' */
+      autoMatchOsTheme: false /* default: true */
+    };
+    new Darkmode(options).showWidget();
+  };
+  window.addEventListener('DOMContentLoaded', addDarkmodeWidget);
+</script>
