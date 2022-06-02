@@ -1,1 +1,1 @@
-@title = "Some Thoughts about Papers"
+@def title = "Some Thoughts about Papers"
