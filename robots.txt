@@ -1,0 +1,4 @@
+Sitemap: https://alastair-marshall.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
