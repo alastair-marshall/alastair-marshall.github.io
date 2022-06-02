@@ -9,9 +9,9 @@
 .darkmode--activated select,
 
 .darkmode--activated button {
-    background-color: #181a1b;
-    border-color: #736b5e;
-    color: #B7B1A7;
+    background-color: #181a1b !important;
+    border-color: #736b5e !important;
+    color: #B7B1A7 !important;
 }
 
 .darkmode--activated .franklin-content {
@@ -41,8 +41,20 @@
     color: #B7B1A7;
 }
 
+.darkmode--activated .darkmode-background {
+    background: #181a1b;
+}
+
+.darkmode--activated li {
+    color: #B7B1A7
+}
+
+.darkmode--activated .header-anchor {
+    color: #B7B1A7
+}
+
 .darkmode--activated .masthead {
-    background-color: #181a1b;
+    background-color: #1F2223;
 }
 
 .darkmode--activated ::placeholder {
@@ -50,8 +62,13 @@
 }
 
 
-.darkmode--activated .greedy-nav .darkmode--activated .page__footer {
-    background: #181a1b;
+.darkmode--activated .greedy-nav {
+    /* background: #181a1b; */
+    color: #B7B1A7
+}
+
+.darkmode--activated .page__footer {
+    background: #1F2223;
     color: #B7B1A7
 }
 

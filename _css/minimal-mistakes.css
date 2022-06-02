@@ -1877,6 +1877,7 @@ th {
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: #f2f3f3
 }
 
 .masthead__inner-wrap {
@@ -2144,7 +2145,7 @@ th {
   -ms-flex-align: center;
   align-items: center;
   min-height: 2em;
-  background: #fff;
+  /* background: #898c8f; */
 }
 
 .greedy-nav a {
