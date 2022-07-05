@@ -2,7 +2,7 @@
 
 # Biography
 
-I am a PhD student from Scotland who is currently working for [NVision Imaging Technologies GmbH](https://www.nvision-imaging.com/) based in Ulm, Germany. During my time at NVision I've worked on several different projects, but they have all been centred around applying quantum optimal control (QOC) to a variety of different systems.
+I am a PhD student from Scotland who is currently working for [qruise GmbH](https://qruise.com) based in Saarbruken, Germany. I have previously worked at [NVision Imaging Technologies GmbH](https://www.nvision-imaging.com/), where I've worked on several different projects, all centred around applying quantum optimal control (QOC) to a variety of different systems.
 
 ## My Work
 
